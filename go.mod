@@ -3,7 +3,12 @@ module kubeform.dev/provider-ec-gen
 go 1.16
 
 require (
+	github.com/aws/aws-sdk-go v1.37.0 // indirect
 	github.com/elastic/terraform-provider-ec v0.2.1
+	github.com/gobuffalo/flect v0.2.3 // indirect
+	github.com/hashicorp/terraform-config-inspect v0.0.0-20210625153042-09f34846faab // indirect
+	golang.org/x/tools v0.0.0-20201028111035-eafbe7b904eb // indirect
+	google.golang.org/api v0.34.0 // indirect
 	k8s.io/apimachinery v0.18.3
-	kubeform.dev/generator-v2 v0.0.16
+	kubeform.dev/generator-v2 v0.0.17
 )
