@@ -1,9 +1,9 @@
 [![Slack](https://shields.io/badge/Join_Slack-salck?color=4A154B&logo=slack)](https://slack.appscode.com)
 [![Twitter](https://img.shields.io/twitter/follow/kubeform.svg?style=social&logo=twitter&label=Follow)](https://twitter.com/intent/follow?screen_name=Kubeform)
 
-# Kubeform Ec Provider Code Generator
+# Kubeform Elastic Cloud Provider Code Generator
 
-Generates code for [Terraform Elastic Cloud Provider](https://github.com/elastic/terraform-provider-ec)
+Kubeform code generator for [Terraform Elastic Cloud Provider](https://github.com/elastic/terraform-provider-ec)
 
 ## Installation
 
