@@ -3,7 +3,7 @@
 
 # Kubeform Ec Provider Code Generator
 
-Generates code for Kubeform Ec Provider
+Generates code for [Terraform Elastic Cloud Provider](https://github.com/elastic/terraform-provider-ec)
 
 ## Installation
 
