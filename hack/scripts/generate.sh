@@ -130,7 +130,7 @@ go mod edit \
     -require=sigs.k8s.io/controller-runtime@v0.9.0 \
     -require=kmodules.xyz/client-go@5e9cebbf1dfa80943ecb52b43686b48ba5df8363 \
     -require=kubeform.dev/apimachinery@ba5604d5a1ccd6ea2c07c6457c8b03f11ab00f63 \
-    -replace=rgithub.com/spf13/afero=github.com/spf13/afero@v1.2.2
+    -replace=github.com/spf13/afero=github.com/spf13/afero@v1.2.2
 go mod tidy
 go mod vendor
 make gen fmt
