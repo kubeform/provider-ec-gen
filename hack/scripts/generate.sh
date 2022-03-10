@@ -112,6 +112,7 @@ go mod edit \
     -require=go.bytebuilders.dev/audit@v0.0.11 \
     -dropreplace=google.golang.org/api \
     -require=kubeform.dev/terraform-backend-sdk@v0.0.0-20210922115523-21574335f0db \
+    -dropreplace=google.golang.org/grpc \
     -dropreplace=github.com/Azure/go-ansiterm \
     -dropreplace=github.com/Azure/go-autorest/tracing \
     -dropreplace=github.com/Azure/go-autorest/logger \
@@ -128,7 +129,8 @@ go mod edit \
     -require=gomodules.xyz/logs@v0.0.3 \
     -require=sigs.k8s.io/controller-runtime@v0.9.0 \
     -require=kmodules.xyz/client-go@5e9cebbf1dfa80943ecb52b43686b48ba5df8363 \
-    -require=kubeform.dev/apimachinery@ba5604d5a1ccd6ea2c07c6457c8b03f11ab00f63
+    -require=kubeform.dev/apimachinery@ba5604d5a1ccd6ea2c07c6457c8b03f11ab00f63 \
+    -replace=rgithub.com/spf13/afero=github.com/spf13/afero@v1.2.2
 go mod tidy
 go mod vendor
 make gen fmt

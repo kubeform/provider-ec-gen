@@ -43,6 +43,7 @@ func main() {
 		ProviderData:         ec.Provider(),
 		ProviderImportPath:   "github.com/elastic/terraform-provider-ec/ec",
 		ProviderConfig:       "elastic/ec",
+		TfPluginVersion:      "v2.8.0",
 		Version:              "v1alpha1",
 		APIsPath:             apisPath,
 		ControllerPath:       controllerPath,
